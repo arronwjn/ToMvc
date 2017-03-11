@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>react</title>
+	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<style>
+
+	</style>
+</head>
+<body>
+<div id="app"></div>
+<script src="/build/bundle.js"></script>
+<script>
+	let arr={name:'newming',age:23};
+	let json=JSON.stringify(arr);
+	console.log(json);
+
+	let jsonObg=JSON.parse(json);
+	console.log(jsonObg);
+	console.log(jsonObg.name)
+</script>
+</body>
+</html>
